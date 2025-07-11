@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+#title
+{
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+}
+.input-container
+{
+    width: 60%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+}
+.item-container
+{
+    text-align: center;
+    padding: 7px;
+    width: 50%;
+    font-family: 'Candara';
+    font-size: 17px;
+    font-weight: bold;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+.input-item input[type="number"]
+{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: none;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+.input-container button
+{
+    text-decoration: none;
+    border: none;
+    width: 65px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 3px;
+    background-color:rgb(209, 209, 209) ;
+}
+.btn-calc button:hover
+{
+    background-color: rgb(25, 219, 90);
+}
+.btn-delete button:hover
+{
+    background-color: rgb(212, 71, 61);
+}
+#result-container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.difucultades
+{
+
+    background-color: rgba(149, 243, 215, 0.658);
+    width: 80px;
+    padding: 10px;
+    padding-right: auto;
+    padding-left: auto;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+}
+.alertError
+{
+    background-color: rgba(189, 164, 164, 0.5);
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+    display: none;
+    border-radius: 3px;
+}
+.error_Tittle
+{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+.error_text
+{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.error_btn button
+{
+    text-decoration: none;
+    border: none;
+    width: 65px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 3px;
+    background-color:rgb(90, 134, 216) ; 
+}
+.error_btn button:hover
+{
+    background-color:rgb(136, 216, 90) ;
+}
+.error_btn
+{
+    margin-left: 28%;
+}
+
+.footer
+{
+    background-color:rgb(62, 129, 206);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}

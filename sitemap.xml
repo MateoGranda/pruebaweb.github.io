@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/Portafolio/paginas-web.html</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/Portafolio/proyectos-electr%C3%B3nica-arduino.html</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/Restaurantes/</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/Restaurantes/index.html</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://grandadigitales.000webhostapp.com/Restaurantes/carta-menu-para-mi-restaurante/index.html</loc>
+  <lastmod>2024-02-23T16:01:45+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+</urlset>

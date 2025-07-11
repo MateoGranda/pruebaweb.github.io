@@ -1,0 +1,136 @@
+.btn-whatsapp-btn img
+{
+    height: 45px;
+    position: relative;
+}
+.btn-whatsapp-btn
+{
+    display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.btn-whatsapp-btn.show
+{
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.btn-whatsapp-btn span
+{
+    float: left;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0;      
+    box-shadow: 5px 5px 2px;   
+    box-shadow: 5px 5px 10px;  
+    box-shadow: 5px 5px 40px;  
+    margin-right: 10px;
+    display: none;
+
+}
+.btn-whatsapp-btn:hover span
+{
+    display: block;
+}
+
+.btn-whatsapp
+{
+position: absolute;
+right: 20px;
+bottom: 20px;
+position: fixed;
+
+}
+.btn-whatsapp-mensajes div:nth-child(1)
+{
+    background-color: #25D366;
+    text-align: center;
+    height: 50px;
+
+}
+.btn-whatsapp-mensajes div:nth-child(1) p
+{
+    line-height: 50px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.btn-whatsapp-mensajes
+{
+    background-color: azure;
+    border: 1px solid rgb(158, 158, 158);
+    width: 280px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.btn-whatsapp-mensajes.show
+{
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.btn-whatsapp-mensajes-i
+{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    color: aliceblue;
+
+
+}
+.btn-whatsapp-mensajes div:nth-child(2)
+{
+    padding: 10px;
+}
+.btn-whatsapp-mensajes-a a
+{
+    text-decoration: none;
+    color: black;
+}
+.btn-whatsapp-mensajes-a a p
+{
+    margin-top: 15px;
+    font-size: 13px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(223, 226, 228);
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.568);
+    margin-right: 15px;
+
+}
+.btn-whatsapp-mensajes div:nth-child(3) a p
+{
+    background-color: #25D366;
+    width: min-content;
+    width: 150px;
+    float: right;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px;
+}
+#btn-close-whatsapp i
+{
+    background-color: rgba(0, 0, 0, 0.336);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 3px;
+}
+#btn-close-whatsapp
+{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+#btn-close-whatsapp:hover
+
+{
+    cursor: pointer;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <script src="logical.js"></script>
+    <title>Difucultades</title>
+    <link rel="icon" type="image/png" href="./../../../resources/img/logo_granda_digitales.png">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="../.././resources/styles/estilos_1.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+               <a href="./../" class="nav__logo">
+                  <span><img src="./../../resources/img/logo_granda_digitales_1.png" alt=""></span>
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="./../../" class="nav__link">Home</a></li>
+
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                    <div class="nav__link">
+                        Servicios
+                        <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="./../paginas-web.html" class="dropdown__link">
+                            <i class="ri-pages-line"></i></i> Creación de Páginas Web
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                            <i class="ri-window-fill"></i></i>Aplicaciones Web
+                          </a>
+                       </li>
+  
+                       <li>
+                        <a href="./../proyectos-electrónica-arduino.html" class="dropdown__link">
+                            <i class="ri-cpu-line"></i> Proyectos Electrónica y Arduino
+                        </a>
+                     </li>
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       
+                    </ul>
+                 </li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Productos <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="./../../Restaurantes/" class="dropdown__link">
+                            <i class="ri-article-line"></i> Menús para restaurantes
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                            <i class="ri-pages-line"></i> Sitios web para empresas
+                           </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown__link">
+                                <i class="ri-graduation-cap-fill"></i> SAE (próximamente)
+                            </a>
+                         </li>
+
+                     </ul>
+                  </li>
+                  <li class="dropdown__item">
+                    <div class="nav__link">
+                        Portafolio <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="./../paginas-web.html" class="dropdown__link">
+                            <i class="ri-pages-line"></i> Sitios web
+                        </a>                          
+                       </li>
+
+                       <li>
+                          <a href="./../proyectos-electrónica-arduino.html" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Arduino y electrónica
+                          </a>
+                       </li>
+
+                       <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-arrow-up-down-line"></i> Aplicaciones web
+                        </a>
+                     </li>
+                    </ul>
+                 </li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  
+                  <li><a href="https://wa.me/+593987014026?text=Hola,%20me%20gustaría%20obtener%20más%20información sobre:" target="_blank" class="nav__link">Contactar</a></li>
+               </ul>
+            </div>
+         </nav>
+
+    </header>
+    <h1 id="title">Calculo de dificulrades</h1>
+    <div class="input-container">
+        <div class="item-container">
+            <div class="input-label">Número de difucultades</div>
+            <div class="input-item"><input id="Num_dif"type="number"></div>
+        </div>
+        <div class="item-container">
+            <div class="input-label">Nota máxima</div>
+            <div class="input-item"><input id="Num_nota" value="10" type="number"></div>
+        </div>
+    </div>
+    <div class="input-container">
+        <div class="btn-calc"><button  onClick="calcular()">Calcular</button></div>
+        <div class="btn-delete"><button onClick="clean()">Limpiar</button></div>
+    </div>
+    <div id="result-container"></div>
+    <div class="alertError" id="Error">
+        <div class="error_Tittle">Dato no valido</div>
+        <div class="error_text">El valor ingresado en uno de los campos no es correcto o está vacio. Intente de nuevo.</div>
+        <div class="error_btn"><button onclick="closeError()">Cerrar</button></div>
+    </div>
+    <footer>
+        <div>
+            <h2>Redes</h2>
+            <p>
+                <a
+                    href="https://www.facebook.com/profile.php?id=61550489562267"
+                    target="_blank">
+                    <span>
+                        <img src="./../../resources/img/Iconos/facebook.png"
+                            alt>
+                    </span>
+                    Granda Digitales
+                </a>
+            </p>
+            <p>
+                <a
+                    href="https://wa.me/593978985185?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20tus%20servicios."
+                    target="_blank">
+                    <span>
+                        <img src="./../../resources/img/Iconos/whatsapp.png"
+                            alt>
+                    </span>
+                    +593 978985185
+                </a>
+            </p>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <p><a
+                    href="https://wa.me/593978985185?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20tus%20servicios."
+                    target="_blank"><span><img
+                            src="./../../resources/img/Iconos/phone.png"
+                            alt></span> +593 978985185</a></p>
+        </div>
+        <div>
+            <h2>Privacidad</h2>
+            <p><a href="./../Privacidad.pdf" target="_blank"><span><img
+                            src="./../../resources/img/Iconos/politica.png"
+                            alt></span> Política de Privacidad</a></p>
+
+        </div>
+    </footer>
+</body>
+</html>

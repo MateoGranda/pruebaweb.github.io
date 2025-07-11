@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+.menos
+{
+}
+.proyectos {
+  text-align: center;
+}
+.proyecto {
+  width: 23%;
+  min-width: 275px;
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(190, 189, 188, 0.459);
+  border: #000 solid 1px;
+  margin: 5px;
+}
+.proyecto_img img {
+  width: 100%;
+}
+.proyecto_img {
+  height: 200px;
+  overflow: hidden;
+}
+
+.proyecto_enlaces {
+  width: 100%;
+}
+.proyecto_enlaces div {
+  width: 80%;
+  margin: 0 auto;
+}
+.proyecto_enlaces div a span img {
+  width: 30px;
+  float: left;
+  padding: 5px;
+  padding-right: 10px;
+}
+.proyecto_enlaces div a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.proyecto_enlaces div a p {
+  line-height: 30px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0;
+  color: #000;
+  text-align: left;
+}
+.bg_1 {
+  background-color: #6c8dad;
+}
+.bg_2 {
+  background-color: #3c71a5;
+}
+.proyecto_enlaces div p:hover {
+  background-color: #d99832;
+}
+.proyecto h3 {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+.conenido_detalles {
+  display: flex;
+  width: 100%;
+}
+.conenido_detalles_1 {
+  width: 30%;
+}
+.conenido_detalles_1
+{
+  margin-left: 15px;
+}
+.carousel_box {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  background-color: #000;
+  width: 45%;
+  height: 275px;
+}
+.img-carousel {
+  overflow: hidden;
+  height: 275px;
+}
+.img-carousel img {
+  width: 100%;
+}
+.galeria {
+  text-align: center;
+}
+.galeria div {
+  width: 25%;
+  padding: 5px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 auto;
+}
+.video-width
+{
+  width: 50%;
+}
+.galeria img {
+  width: 100%;
+
+}
+.btn-informacion a img
+{
+  height: 50px;
+}
+.titulo
+{
+  text-align: center;
+  vertical-align: center;
+  height: 45px;
+}
+.titulo h1:nth-child(1) {
+    all: unset;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #af445a;
+  display: inline-block;
+}
+.titulo h1:nth-child(2) {
+  all: unset;
+  color: #f59f59;
+  font-size: 3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+
+}

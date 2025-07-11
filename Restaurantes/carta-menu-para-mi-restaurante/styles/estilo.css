@@ -1,0 +1,81 @@
+:root
+{
+    --color-uno: #f8a348;
+    --color-dos: #1c1d1c;
+    --color-tres: #ffffff;
+    --color-cuatro: #3a7b50;
+    --color-cinco: #e15244;
+    --color-seis: #fee78a;
+}
+header
+{
+    background-color: var(--color-uno);
+}
+.item-precio
+{
+    background-color: var(--color-dos);
+    color: var(--color-tres);
+}
+.detalles
+{
+    background-color: var(--color-seis);
+    color: var(--color-dos);
+
+}
+footer {
+    background-color: var(--color-cuatro);
+}
+.container, .container div ul li a
+{
+    color: var(--color-tres);
+}
+.partes
+{
+    background-color: black;
+    padding: 15px 10px;
+}
+.partes h3
+{
+    border: solid 5px rgb(255, 255, 255);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+.titulo-3
+{
+    color: var(--color-dos);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav
+{
+    background-color: var(--color-uno);
+}
+.nav ul li span
+{
+  background-color: var(--color-cinco);
+}
+.box-btn-top
+{
+    background-color: var(--color-uno);
+}
+.btn-top i 
+{
+  color: var(--color-tres);
+}
+.nav
+{
+    background-color: var(--color-cuatro);
+}
+.nav ul li a{
+color:  #000;
+}
+.btn-top i 
+{
+  color: #000;
+}
